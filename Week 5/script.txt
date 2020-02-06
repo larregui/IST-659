@@ -1,0 +1,23 @@
+CREATE DATABASE [SAMPLE]
+
+CREATE TABLE [SAMPLETABLE]
+(
+[id] [int] IDENTITY (1,1) NOT NULL,
+[Name] [NVARCHAR] (75),
+[DATE] [datetime]
+)
+
+INSERT INTO [sampletable] ([Name], [Date]) 
+VALUES ('John Doe', '3/16/2009')
+
+CREATE TABLE [PATIENT]
+(
+[PatientID][int] IDENTITY (1,1) NOT NULL,
+[FirstName] [NVARCHAR] (30) NOT NULL,
+[LastName] [NVARCHAR] (30) NOT NULL,
+[DateEntered] [datetime] NOT NULL,
+[PrimaryCarePhysicianID][int] 
+)
+
+INSERT INTO [sampletable] ([Name], [Date]) 
+VALUES ('John Doe', '3/16/2009')
